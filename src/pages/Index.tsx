@@ -222,7 +222,7 @@ export default function Index() {
                 <span className="text-2xl">{game.emoji}</span>
                 <div>
                   <div className="font-medium text-sm text-white">{game.name}</div>
-                  <div className="text-xs text-gray-500">{game.streams} стримов</div>
+                  <div className="text-xs text-gray-500">{game.streams}</div>
                 </div>
               </div>
             ))}
@@ -253,7 +253,7 @@ export default function Index() {
             СЛЕДУЮЩИЙ <span className="neon-text-purple">РОЗЫГРЫШ</span>
           </h2>
           <div className="inline-block mb-8 px-4 py-2 border border-[var(--neon-purple)] rounded text-[var(--neon-purple)] text-sm font-medium">
-            🎁 Донат-карта 500 руб. + Ранг на сервере LIMERS
+            🎁 Ранг на сервере LIMERS
           </div>
           <div className="flex justify-center gap-4 mb-10">
             {[
