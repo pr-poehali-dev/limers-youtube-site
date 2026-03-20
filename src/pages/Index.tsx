@@ -31,7 +31,7 @@ const SERVER_FEATURES = [
   { icon: "Gift", label: "Розыгрыши", desc: "Призы каждую неделю" },
   { icon: "Users", label: "Сообщество", desc: "Дружный чат" },
   { icon: "Trophy", label: "Рейтинг", desc: "Топ игроков" },
-  { icon: "Zap", label: "Мини-игры", desc: "SkyWars, BedWars" },
+
 ];
 
 function useCountdown(targetDate: Date) {
@@ -312,7 +312,7 @@ export default function Index() {
                 <span className="text-green-400 text-sm font-medium">Сервер онлайн</span>
               </div>
               <div className="game-card rounded-lg px-4 py-2 border border-[var(--neon-cyan)] inline-block">
-                <span className="font-orbitron text-sm text-[var(--neon-cyan)] tracking-wider">play.limers.ru</span>
+                <span className="font-orbitron text-sm text-[var(--neon-cyan)] tracking-wider">185.9.145.8:38251</span>
               </div>
             </div>
           </div>
@@ -326,11 +326,7 @@ export default function Index() {
             ))}
           </div>
         </div>
-        <div className="text-center">
-          <button className="neon-btn-cyan px-10 py-3 rounded font-orbitron text-sm tracking-wider">
-            ⛏️ ЗАЙТИ НА СЕРВЕР
-          </button>
-        </div>
+
       </section>
 
       {/* FOOTER */}
