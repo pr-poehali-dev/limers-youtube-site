@@ -151,9 +151,6 @@ export default function Index() {
         <div className="absolute bottom-1/3 right-1/4 w-96 h-96 rounded-full bg-[var(--neon-cyan)] opacity-5 blur-3xl animate-float delay-500" />
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <div className="inline-block mb-4 px-3 py-1 border border-[var(--neon-cyan)] rounded text-[var(--neon-cyan)] text-xs font-orbitron tracking-widest animate-pulse-neon">
-            🔴 LIVE СКОРО
-          </div>
           <h1 className="font-orbitron font-black text-5xl sm:text-7xl md:text-8xl leading-none mb-4 opacity-0 animate-slide-up" style={{ animationFillMode: "forwards" }}>
             <span className="neon-text-cyan">LIM</span>
             <span className="text-white">ERS</span>
