@@ -206,7 +206,7 @@ export default function Index() {
               ивенты и розыгрыши крутых призов. Заходи — будет весело!
             </p>
             <div className="flex flex-wrap gap-3">
-              {["Minecraft", "CS2", "Valorant", "Fortnite", "GTA V"].map((tag) => (
+              {["Minecraft", "CS2", "Fortnite"].map((tag) => (
                 <span
                   key={tag}
                   className="px-3 py-1 border border-[var(--card-border)] rounded text-sm text-gray-400 hover:border-[var(--neon-cyan)] hover:text-[var(--neon-cyan)] transition-all cursor-default"
