@@ -175,9 +175,9 @@ export default function Index() {
           </div>
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-sm mx-auto opacity-0 animate-slide-up delay-500" style={{ animationFillMode: "forwards" }}>
             {[
-              { value: "12K+", label: "подписчиков" },
-              { value: "150+", label: "стримов" },
-              { value: "500+", label: "игроков" },
+              { value: "2", label: "подписчиков" },
+              { value: "0", label: "стримов" },
+              { value: "0", label: "игроков" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="font-orbitron font-black text-2xl neon-text-cyan">{stat.value}</div>
