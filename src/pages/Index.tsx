@@ -20,12 +20,9 @@ const SCHEDULE = [
 ];
 
 const GAMES = [
-  { name: "Minecraft", emoji: "⛏️", streams: 48 },
-  { name: "CS2", emoji: "🎯", streams: 23 },
-  { name: "Fortnite", emoji: "🔫", streams: 15 },
-  { name: "Valorant", emoji: "⚡", streams: 12 },
-  { name: "GTA V", emoji: "🚗", streams: 9 },
-  { name: "Apex Legends", emoji: "🦾", streams: 7 },
+  { name: "Minecraft", emoji: "⛏️", streams: "Скоро будет стрим" },
+  { name: "CS2", emoji: "🎯", streams: "Скоро будет стрим" },
+  { name: "Fortnite", emoji: "🔫", streams: "Скоро будет стрим" },
 ];
 
 const SERVER_FEATURES = [
