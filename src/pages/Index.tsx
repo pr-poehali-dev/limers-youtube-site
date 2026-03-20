@@ -114,7 +114,7 @@ export default function Index() {
             ))}
           </div>
           <a
-            href="https://youtube.com/@limers"
+            href="https://www.youtube.com/@Limers_Studio"
             target="_blank"
             rel="noreferrer"
             className="hidden md:flex items-center gap-2 neon-btn-cyan px-4 py-2 rounded font-orbitron text-xs tracking-wider"
@@ -166,17 +166,20 @@ export default function Index() {
             Minecraft сервер · PvP турниры · Совместные стримы
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-slide-up delay-400" style={{ animationFillMode: "forwards" }}>
+            <a
+              href="https://www.youtube.com/@Limers_Studio"
+              target="_blank"
+              rel="noreferrer"
+              className="neon-btn-cyan px-8 py-3 rounded font-orbitron text-sm tracking-wider flex items-center justify-center gap-2"
+            >
+              <Icon name="Youtube" size={16} />
+              НА КАНАЛ
+            </a>
             <button
               onClick={() => scrollTo("#streams")}
-              className="neon-btn-cyan px-8 py-3 rounded font-orbitron text-sm tracking-wider"
-            >
-              📅 РАСПИСАНИЕ
-            </button>
-            <button
-              onClick={() => scrollTo("#server")}
               className="neon-btn-purple px-8 py-3 rounded font-orbitron text-sm tracking-wider"
             >
-              ⛏️ НАШ СЕРВЕР
+              📅 РАСПИСАНИЕ
             </button>
           </div>
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-sm mx-auto opacity-0 animate-slide-up delay-500" style={{ animationFillMode: "forwards" }}>
@@ -295,7 +298,7 @@ export default function Index() {
         </div>
         <div className="text-center mt-8">
           <a
-            href="https://youtube.com/@limers"
+            href="https://www.youtube.com/@Limers_Studio"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 neon-btn-purple px-6 py-3 rounded font-orbitron text-xs tracking-wider"
@@ -403,7 +406,7 @@ export default function Index() {
             <span className="font-orbitron font-black text-2xl neon-text-cyan animate-flicker">LIMERS</span>
             <div className="flex gap-4">
               <a
-                href="https://youtube.com/@limers"
+                href="https://www.youtube.com/@Limers_Studio"
                 target="_blank"
                 rel="noreferrer"
                 className="w-10 h-10 rounded border border-[var(--card-border)] flex items-center justify-center text-gray-500 hover:text-[var(--neon-cyan)] hover:border-[var(--neon-cyan)] transition-all"
