@@ -7,7 +7,6 @@ const MC_IMAGE = "https://cdn.poehali.dev/projects/16f8dd31-d766-423d-ac58-aad69
 const NAV_LINKS = [
   { label: "Главная", href: "#home" },
   { label: "О канале", href: "#about" },
-  { label: "Трансляции", href: "#streams" },
   { label: "Розыгрыши", href: "#giveaway" },
   { label: "Сервер", href: "#server" },
 ];
