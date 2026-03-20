@@ -174,12 +174,7 @@ export default function Index() {
               <Icon name="Youtube" size={16} />
               НА КАНАЛ
             </a>
-            <button
-              onClick={() => scrollTo("#streams")}
-              className="neon-btn-purple px-8 py-3 rounded font-orbitron text-sm tracking-wider"
-            >
-              📅 РАСПИСАНИЕ
-            </button>
+
           </div>
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-sm mx-auto opacity-0 animate-slide-up delay-500" style={{ animationFillMode: "forwards" }}>
             {[
