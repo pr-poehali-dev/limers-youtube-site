@@ -254,60 +254,6 @@ export default function Index() {
         </div>
       </div>
 
-      {/* STREAMS */}
-      <section id="streams" className="py-24 px-4 max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <div className="text-[var(--neon-cyan)] font-orbitron text-xs tracking-widest mb-3">// РАСПИСАНИЕ</div>
-          <h2 className="font-orbitron font-black text-3xl sm:text-4xl">
-            ТРАНСЛЯЦИИ И <span className="neon-text-cyan">СОБЫТИЯ</span>
-          </h2>
-        </div>
-        <div className="grid gap-3 max-w-3xl mx-auto">
-          {SCHEDULE.map((item) => (
-            <div
-              key={item.day}
-              className={`flex items-center gap-4 p-4 rounded-lg border transition-all duration-300 ${
-                item.active
-                  ? "border-[var(--neon-cyan)] bg-[rgba(0,245,255,0.05)] shadow-[0_0_20px_rgba(0,245,255,0.15)]"
-                  : "border-[var(--card-border)] bg-[var(--card-bg)] hover:border-gray-600"
-              }`}
-            >
-              <div className={`font-orbitron font-black text-lg w-10 text-center ${item.active ? "neon-text-cyan" : "text-gray-500"}`}>
-                {item.day}
-              </div>
-              <div className={`font-orbitron text-sm font-bold w-16 ${item.active ? "text-white" : "text-gray-400"}`}>
-                {item.time}
-              </div>
-              <div className="flex-1">
-                <div className={`font-medium ${item.active ? "text-white" : "text-gray-300"}`}>{item.game}</div>
-              </div>
-              <div className="flex items-center gap-2">
-                {item.type === "mc" && <span className="text-xs px-2 py-0.5 rounded bg-green-900/40 text-green-400 border border-green-800">Minecraft</span>}
-                {item.type === "event" && <span className="text-xs px-2 py-0.5 rounded bg-yellow-900/40 text-yellow-400 border border-yellow-800">Событие</span>}
-                {item.type === "game" && <span className="text-xs px-2 py-0.5 rounded bg-blue-900/40 text-blue-400 border border-blue-800">Игра</span>}
-                {item.active && (
-                  <span className="flex items-center gap-1 text-xs text-[var(--neon-cyan)] font-orbitron">
-                    <span className="w-2 h-2 rounded-full bg-[var(--neon-cyan)] animate-pulse" />
-                    СКОРО
-                  </span>
-                )}
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="text-center mt-8">
-          <a
-            href="https://www.youtube.com/@Limers_Studio"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 neon-btn-purple px-6 py-3 rounded font-orbitron text-xs tracking-wider"
-          >
-            <Icon name="Youtube" size={16} />
-            СМОТРЕТЬ ПРЯМЫЕ ЭФИРЫ
-          </a>
-        </div>
-      </section>
-
       {/* GIVEAWAY */}
       <section id="giveaway" className="py-24 px-4 relative overflow-hidden">
         <div className="absolute inset-0 grid-bg opacity-50" />
